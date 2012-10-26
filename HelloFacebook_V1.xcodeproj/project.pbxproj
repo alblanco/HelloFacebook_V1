@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DDCBCC163ADFC900AD2234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDCBCB163ADFC900AD2234 /* UIKit.framework */; };
+		05DDCBCE163ADFC900AD2234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDCBCD163ADFC900AD2234 /* Foundation.framework */; };
+		05DDCBD0163ADFC900AD2234 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDCBCF163ADFC900AD2234 /* CoreGraphics.framework */; };
+		05DDCBD6163ADFC900AD2234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05DDCBD4163ADFC900AD2234 /* InfoPlist.strings */; };
+		05DDCBD8163ADFC900AD2234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDCBD7163ADFC900AD2234 /* main.m */; };
+		05DDCBDC163ADFC900AD2234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDCBDB163ADFC900AD2234 /* AppDelegate.m */; };
+		05DDCBDE163ADFC900AD2234 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DDCBDD163ADFC900AD2234 /* Default.png */; };
+		05DDCBE0163ADFC900AD2234 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DDCBDF163ADFC900AD2234 /* Default@2x.png */; };
+		05DDCBE2163ADFC900AD2234 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DDCBE1163ADFC900AD2234 /* Default-568h@2x.png */; };
+		05DDCBE9163AE03B00AD2234 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DDCBE8163AE03B00AD2234 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05DDCBC7163ADFC900AD2234 /* HelloFacebook_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFacebook_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DDCBCB163ADFC900AD2234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05DDCBCD163ADFC900AD2234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05DDCBCF163ADFC900AD2234 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05DDCBD3163ADFC900AD2234 /* HelloFacebook_V1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloFacebook_V1-Info.plist"; sourceTree = "<group>"; };
+		05DDCBD5163ADFC900AD2234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05DDCBD7163ADFC900AD2234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05DDCBD9163ADFC900AD2234 /* HelloFacebook_V1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloFacebook_V1-Prefix.pch"; sourceTree = "<group>"; };
+		05DDCBDA163ADFC900AD2234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05DDCBDB163ADFC900AD2234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05DDCBDD163ADFC900AD2234 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		05DDCBDF163ADFC900AD2234 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		05DDCBE1163ADFC900AD2234 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		05DDCBE8163AE03B00AD2234 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DDCBC4163ADFC900AD2234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DDCBCC163ADFC900AD2234 /* UIKit.framework in Frameworks */,
+				05DDCBCE163ADFC900AD2234 /* Foundation.framework in Frameworks */,
+				05DDCBD0163ADFC900AD2234 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DDCBBC163ADFC900AD2234 = {
+			isa = PBXGroup;
+			children = (
+				05DDCBD1163ADFC900AD2234 /* HelloFacebook_V1 */,
+				05DDCBCA163ADFC900AD2234 /* Frameworks */,
+				05DDCBC8163ADFC900AD2234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DDCBC8163ADFC900AD2234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DDCBC7163ADFC900AD2234 /* HelloFacebook_V1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DDCBCA163ADFC900AD2234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05DDCBCB163ADFC900AD2234 /* UIKit.framework */,
+				05DDCBCD163ADFC900AD2234 /* Foundation.framework */,
+				05DDCBCF163ADFC900AD2234 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05DDCBD1163ADFC900AD2234 /* HelloFacebook_V1 */ = {
+			isa = PBXGroup;
+			children = (
+				05DDCBDA163ADFC900AD2234 /* AppDelegate.h */,
+				05DDCBDB163ADFC900AD2234 /* AppDelegate.m */,
+				05DDCBD2163ADFC900AD2234 /* Supporting Files */,
+			);
+			path = HelloFacebook_V1;
+			sourceTree = "<group>";
+		};
+		05DDCBD2163ADFC900AD2234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DDCBE8163AE03B00AD2234 /* MainWindow.xib */,
+				05DDCBD3163ADFC900AD2234 /* HelloFacebook_V1-Info.plist */,
+				05DDCBD4163ADFC900AD2234 /* InfoPlist.strings */,
+				05DDCBD7163ADFC900AD2234 /* main.m */,
+				05DDCBD9163ADFC900AD2234 /* HelloFacebook_V1-Prefix.pch */,
+				05DDCBDD163ADFC900AD2234 /* Default.png */,
+				05DDCBDF163ADFC900AD2234 /* Default@2x.png */,
+				05DDCBE1163ADFC900AD2234 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DDCBC6163ADFC900AD2234 /* HelloFacebook_V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DDCBE5163ADFC900AD2234 /* Build configuration list for PBXNativeTarget "HelloFacebook_V1" */;
+			buildPhases = (
+				05DDCBC3163ADFC900AD2234 /* Sources */,
+				05DDCBC4163ADFC900AD2234 /* Frameworks */,
+				05DDCBC5163ADFC900AD2234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloFacebook_V1;
+			productName = HelloFacebook_V1;
+			productReference = 05DDCBC7163ADFC900AD2234 /* HelloFacebook_V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DDCBBE163ADFC900AD2234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alberto Blanco";
+			};
+			buildConfigurationList = 05DDCBC1163ADFC900AD2234 /* Build configuration list for PBXProject "HelloFacebook_V1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05DDCBBC163ADFC900AD2234;
+			productRefGroup = 05DDCBC8163ADFC900AD2234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DDCBC6163ADFC900AD2234 /* HelloFacebook_V1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DDCBC5163ADFC900AD2234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DDCBD6163ADFC900AD2234 /* InfoPlist.strings in Resources */,
+				05DDCBDE163ADFC900AD2234 /* Default.png in Resources */,
+				05DDCBE0163ADFC900AD2234 /* Default@2x.png in Resources */,
+				05DDCBE2163ADFC900AD2234 /* Default-568h@2x.png in Resources */,
+				05DDCBE9163AE03B00AD2234 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DDCBC3163ADFC900AD2234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DDCBD8163ADFC900AD2234 /* main.m in Sources */,
+				05DDCBDC163ADFC900AD2234 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05DDCBD4163ADFC900AD2234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DDCBD5163ADFC900AD2234 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DDCBE3163ADFC900AD2234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DDCBE4163ADFC900AD2234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DDCBE6163ADFC900AD2234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFacebook_V1/HelloFacebook_V1-Prefix.pch";
+				INFOPLIST_FILE = "HelloFacebook_V1/HelloFacebook_V1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05DDCBE7163ADFC900AD2234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFacebook_V1/HelloFacebook_V1-Prefix.pch";
+				INFOPLIST_FILE = "HelloFacebook_V1/HelloFacebook_V1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DDCBC1163ADFC900AD2234 /* Build configuration list for PBXProject "HelloFacebook_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DDCBE3163ADFC900AD2234 /* Debug */,
+				05DDCBE4163ADFC900AD2234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DDCBE5163ADFC900AD2234 /* Build configuration list for PBXNativeTarget "HelloFacebook_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DDCBE6163ADFC900AD2234 /* Debug */,
+				05DDCBE7163ADFC900AD2234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DDCBBE163ADFC900AD2234 /* Project object */;
+}
